@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AA Automobiles</title>
+    <style>
+        h1 {
+            color: white;
+            text-align: center;
+            padding: 10px;
+            border: 3px solid black;
+            margin: 10px;
+            background-color: dodgerblue;
+        }
+        body {
+            background-image: url('https://thumbs.dreamstime.com/b/new-luxury-compact-car-parked-modern-showroom-sale-car-dealership-office-car-retail-shop-new-luxury-car-parked-modern-114186318.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            border: 3px solid black;
+            color: white;
+            padding: 20px;
+            text-align:right;
+        }
+        h3 {
+            color: black;
+            display: inline-block;
+            border: 2px solid white;
+            padding: 3px 5px;
+            background-color: dodgerblue;
+        }
+        table {
+            margin-bottom: 20px;
+        }
+        button {
+            display: block;
+            margin: 10px auto;
+            padding: 10px;
+            color: white;
+            
+        }
+        button:hover {
+            background-color: darkblue;
+        }
+        footer {
+            margin-top: 20px;
+            text-align: center;
+            font-size: 14px;
+            color: gray;
+        }
+           </style>
+</head>
+<body>
+
+    <h1>Cars Hub</h1>
+    <h3>CUSTOMER DETAILS</h3>
+    <table>
+        <tr>
+            <td><label for="name">Full Name:</label></td>
+            <td><input type="text" id="name" name="name" required></td>
+        </tr>
+        <tr>
+            <td><label for="contact">Contact Number:</label></td>
+            <td><input type="number" id="contact" name="contact" required></td>
+        </tr>
+        <tr>
+            <td><label for="dob">Date of Birth:</label></td>
+            <td><input type="date" id="dob" name="dob" required></td>
+        </tr>
+        <tr>
+            <td><label for="age">Age:</label></td>
+            <td><input type="number" id="age" name="age" required></td>
+        </tr>
+        <tr>
+            <td><label for="gender">Gender:</label></td>
+            <td>
+                <input type="radio" id="male" name="gender" value="Male"> Male
+                <input type="radio" id="female" name="gender" value="Female"> Female
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="email">Enter Your Email:</label></td>
+            <td><input type="email" id="email" name="email" required></td>
+        </tr>
+        <tr>
+            <td><label for="address">Address:</label></td>
+            <td><textarea id="address" name="address" rows="4" cols="25"></textarea></td>
+        </tr>
+    </table>
+
+    <h3>• Vehicle Information</h3>
+    <table>
+        <tr>
+            <td><label for="company">Company:</label></td>
+            <td>
+                <select id="company" name="company">
+                    <option value="select">Select</option>
+                    <option value="Toyota">TOYOTA</option>
+                    <option value="Suzuki">SUZUKI</option>
+                    <option value="BMW">BMW</option>
+                    <option value="Tata">TATA</option>
+                    <option value="Honda">HONDA</option>
+                    <option value="Hyundai">HYUNDAI</option>
+                    <option value="Skoda">SKODA</option>
+                    <option value="Mahindra">MAHINDRA</option>
+                    <option value="Kia">KIA</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="year">Year of Manufacture:</label></td>
+            <td><input type="date" id="year" name="year" required></td>
+        </tr>
+        <tr>
+            <td><label for="engine">Engine Number:</label></td>
+            <td><input type="number" id="engine" name="engine" required></td>
+        </tr>
+        <tr>
+            <td><label for="color">Color:</label></td>
+            <td><input type="text" id="color" name="color" required></td>
+        </tr>
+    </table>
+
+    <button type="register"><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVDOTLVYKJJpVNjMNqUpq9I_Fd3dSYj2nq-cIm9cVpLMkIxNGsOSw77daXjHmhLmuG8DQ&usqp=CAU">Register</a></button>
+    
+
+    <footer>
+        | About Automobiles |<br>
+        Automobiles, also known as cars, are motor vehicles designed for passenger transportation. They typically have four wheels and run on internal combustion engines or electric motors. Modern automobiles come with advanced features such as safety systems, fuel efficiency, and smart technology integration, making transportation more convenient and efficient.
+    </footer>
+
+</body>
+</html>
